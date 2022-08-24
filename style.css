@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50%;
+  height: 100vw;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+}
+
+.box {
+  width: 20vh;
+  height: 100vw;
+  left: -17vh;
+  position: absolute;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+.baslık {
+  background-color: rgba(164, 72, 60, 0.938);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.icerik {
+  background-color: rgb(232, 161, 30);
+  padding-left: 2rem;
+  height: 100vw;
+  line-height: 2rem;
+}
+
+.icerik ul {
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+.baslık i {
+  color: white;
+}
+.container :hover {
+  left: 0;
+}
+.container :hover i {
+  display: block;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
